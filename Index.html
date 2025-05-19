@@ -1,1 +1,18 @@
-<h1>hello</h1>
+<!-- PoC.html -->
+<html>
+  <head>
+    <title>PoC - Exposed Boomerang API Key</title>
+    <script src="https://cdn.akamai.com/boomerang/boomerang-latest.min.js"></script>
+    <script>
+      // Demonstration ONLY (Do NOT send any actual beacon data)
+      window.BOOMR_API_key = "K86MW-SDYVJ-7LZPP-MQN6D-FAC4L";
+
+      console.log("Loaded Boomerang with Meesho's API Key.");
+      console.warn("No data is sent. This is a static demo PoC.");
+    </script>
+  </head>
+  <body>
+    <h1>Proof of Concept – Leaked Boomerang API Key</h1>
+    <p>This demonstrates that the API key is public and could be used to spoof mPulse beacon data if exploited.</p>
+  </body>
+</html>
